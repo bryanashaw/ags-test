@@ -25,6 +25,7 @@ public class TryAgain : MonoBehaviour
     //This method restarts the level (called from pressing yes)
     public void RestartGame()
     {
+        Time.timeScale = 1;
         SceneManager.LoadScene("SampleScene");
     }
 
